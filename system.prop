@@ -1,0 +1,7 @@
+# kminilte Hardware Info
+ro.device.chipset=Samsung Exynos 8 Octa 8890
+ro.device.cpu=4x2.3 GHz Exynos M1 Mongoose, 4x1.6 GHz ARM Cortex-A53, 8 Cores
+ro.device.gpu=ARM Mali-T880 MP12, 650 MHz, 12 Cores
+ro.device.rear_cam=12 MP
+ro.device.front_cam=5 MP
+ro.device.screen_res=1440x2560 pixels (560 ppi)
