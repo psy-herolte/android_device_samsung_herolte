@@ -15,10 +15,10 @@ $(call inherit-product, vendor/validus/config/caf_fw.mk)
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := validus_herolte
 PRODUCT_DEVICE := herolte
+PRODUCT_MODEL := SM-G930F
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
-#PRODUCT_MODEL := SM-G930F
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	DEVICE_MAINTAINERS="Psy After"
