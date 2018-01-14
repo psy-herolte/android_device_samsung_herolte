@@ -132,4 +132,10 @@
     <!-- Whether the display blanks itself when transitioning from a doze to a non-doze state -->
     <bool name="config_displayBlanksAfterDoze">true</bool>
     
-</resources>
+
+    <!-- Controls the WiFi wakeup feature.
+    0 = Not available.
+    1 = Available.
+    -->
+    <integer translatable="false" name="config_wifi_wakeup_available">1</integer>
+ </resources>
