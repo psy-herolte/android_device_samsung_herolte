@@ -96,7 +96,7 @@
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
     <!-- Enable blur support -->
-    <bool name="config_uiBlurEnabled">true</bool>
+    <!--bool name="config_uiBlurEnabled">true</bool-->
 
     <!-- ################### LED CONFIGS ################### -->
 
@@ -110,7 +110,7 @@
     <integer name="config_defaultNotificationLedOff">9000</integer>
 
     <!-- Does the notification LED support multiple colors? Used to decide if the user can change the colors -->
-    <bool name="config_multiColorNotificationLed">true</bool>
+    <!--bool name="config_multiColorNotificationLed">true</bool-->
 
     <!-- Does the battery LED support multiple colors? Used to decide if the user can change the colors -->
     <bool name="config_multiColorBatteryLed">true</bool>
@@ -140,7 +140,7 @@
  
     <!-- If enabled, capacitive keys will only light up when pressed.
          Otherwise, the buttons will light up whenever the user interacts with the device -->
-    <bool name="config_buttonLightOnKeypressOnly">false</bool>
+    <!--bool name="config_buttonLightOnKeypressOnly">false</bool-->
  
     <!-- True if camera app should be pinned via Pinner Service -->
     <bool name="config_pinnerCameraApp">true</bool>
