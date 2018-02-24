@@ -157,4 +157,7 @@
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
 
+    <!-- Whether device has button lights support -->
+    <bool name="config_button_brightness_support">true</bool>
+
 </resources>
