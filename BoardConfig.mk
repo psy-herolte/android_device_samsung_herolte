@@ -27,9 +27,6 @@ KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9
 
-# Architecture
-TARGET_USES_64_BIT_BINDER := true
-
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
 
