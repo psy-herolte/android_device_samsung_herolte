@@ -22,25 +22,13 @@ TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
 #KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro/bin
 KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
-TARGET_KERNEL_ARCH := arm64
-TARGET_KERNEL_HEADER_ARCH := arm64
 #TARGET_KERNEL_APPEND_DTB := true
-TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 
 # Rom Toolchain
 TARGET_GCC_VERSION_EXP := 4.9
 
 # Architecture
-TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-a
 TARGET_USES_64_BIT_BINDER := true
-
-#TARGET_TOOLCHAIN_ROOT := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9
-#TARGET_TOOLS_PREFIX := $(TARGET_TOOLCHAIN_ROOT)/bin/aarch64-linux-android-
-
-# Kernel Toolchain
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro/bin
 
 # Recovery
 TARGET_OTA_ASSERT_DEVICE := heroltebmc,herolteskt,heroltektt,heroltelgt,heroltexx,herolte
