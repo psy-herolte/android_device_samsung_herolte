@@ -25,5 +25,7 @@ DEFAULT_ROOT_METHOD := magisk
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	DEVICE_MAINTAINERS="Psy After"
 
+BUILD_FINGERPRINT := samsung/validus_herolte/herolte:8.1.0/OPM4.171019.016.B1/035cb79760:userdebug/release-keys
+
 # custom
 -include $(LOCAL_PATH)/custom.mk
