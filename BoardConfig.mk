@@ -20,8 +20,8 @@ TARGET_KERNEL_SOURCE := kernel/samsung/universal8890
 TARGET_KERNEL_CONFIG := exynos8890-herolte_defconfig
 #KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/aarch64/aarch64-linux-android-4.9/bin
 #KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-android-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro/bin
-KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+#KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro/bin
+#KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
 #TARGET_KERNEL_APPEND_DTB := true
 
 # Rom Toolchain
