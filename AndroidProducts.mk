@@ -1,3 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage.mk \
-	$(LOCAL_DIR)/lineage_herolte.mk
+	$(LOCAL_DIR)/validus_herolte.mk
