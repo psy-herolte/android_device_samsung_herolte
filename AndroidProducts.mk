@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/validus_herolte.mk
+	$(LOCAL_DIR)/gzosp_herolte.mk

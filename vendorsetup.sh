@@ -1,1 +1,1 @@
-add_lunch_combo validus_herolte-userdebug
+add_lunch_combo gzosp_herolte-userdebug
